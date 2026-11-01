@@ -1,0 +1,52 @@
+{
+  "name": "trekkers-squad-backend",
+  "version": "1.0.0",
+  "description": "Production-grade REST API for The Trekkers Squad platform",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seeds/index.js",
+    "perf:check": "node src/scripts/perf-check.js",
+    "seed:clean": "node src/seeds/clean.seed.js",
+    "seed:users": "node src/seeds/users.seed.js",
+    "seed:team": "node src/seeds/team.seed.js",
+    "seed:impact": "node src/seeds/impact.seed.js",
+    "seed:faqs": "node src/seeds/faqs.seed.js",
+    "seed:rentals": "node src/seeds/rentals.seed.js",
+    "seed:add-ons": "node src/seeds/addOns.seed.js",
+    "seed:bulk": "node src/seeds/bulk.seed.js",
+    "seed:all": "npm run seed:clean && npm run seed:users && npm run seed:bulk && npm run seed:team && npm run seed:faqs && npm run seed:rentals && npm run seed:add-ons"
+  },
+  "keywords": [
+    "Trekkers Squad",
+    "experience",
+    "api",
+    "cms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lru-cache": "^11.5.2",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^9.0.5",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.3",
+    "slugify": "^1.6.6",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

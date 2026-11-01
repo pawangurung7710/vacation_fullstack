@@ -1,0 +1,277 @@
+{
+	"hero": {
+		"image": {
+			"src": "https://images.unsplash.com/photo-1699707092208-05bd78ac55d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=2000",
+			"alt": "Join Our Team"
+		},
+		"overlayClassName": "bg-gradient-to-br from-[var(--color-forest-900)]/85 to-[var(--color-navy-900)]/75",
+		"breadcrumbs": [
+			{ "label": "About", "path": "/about" },
+			{ "label": "Careers & Partnerships" }
+		],
+		"title": "Careers & Partnerships",
+		"subtitle": "Join us in transforming adventure travel. Work with purpose, grow with impact."
+	},
+	"sections": {
+		"whyJoin": {
+			"title": "Why Join Trekkers Squad",
+			"subtitle": "We're building more than a business—we're creating a movement for responsible travel",
+			"benefits": [
+				{
+					"icon": "Heart",
+					"title": "Purpose-Driven Work",
+					"description": "Every day, your work directly contributes to community empowerment and environmental restoration"
+				},
+				{
+					"icon": "Users",
+					"title": "Fair Wages & Benefits",
+					"description": "We pay 40-60% above industry standard with comprehensive health coverage and professional development"
+				},
+				{
+					"icon": "Mountain",
+					"title": "Work in the mountains",
+					"description": "Experience the world's most spectacular landscapes while building meaningful careers"
+				},
+				{
+					"icon": "TrendingUp",
+					"title": "Growth & Learning",
+					"description": "Continuous training, certifications, and opportunities to develop new skills and leadership"
+				},
+				{
+					"icon": "Globe",
+					"title": "Global Impact",
+					"description": "Connect with international travelers and contribute to global sustainable tourism movement"
+				},
+				{
+					"icon": "Sparkles",
+					"title": "Inclusive Culture",
+					"description": "We prioritize diversity, equity, and creating opportunities for marginalized communities"
+				}
+			]
+		},
+		"openPositions": {
+			"badge": { "icon": "Briefcase", "text": "We're Hiring" },
+			"title": "Open Positions",
+			"subtitle": "Join our team of passionate professionals building the future of sustainable tourism",
+			"labels": {
+				"aboutRole": "About the Role",
+				"requirements": "Requirements",
+				"responsibilities": "Responsibilities",
+				"benefits": "Benefits",
+				"applyCta": "Apply for This Position",
+				"shareCta": "Share Job"
+			},
+			"jobs": [
+				{
+					"id": "1",
+					"title": "Mountain Guide",
+					"department": "Operations",
+					"location": "Remote or base camp",
+					"type": "Seasonal",
+					"description": "Lead responsible trekking experiences through the mountains. Work with international guests while promoting sustainable tourism practices.",
+					"requirements": [
+						"5+ years of guiding experience in the mountains",
+						"Wilderness First Responder certification",
+						"Fluent in English plus a local language",
+						"Deep knowledge of local culture and ecology",
+						"Passionate about responsible travel"
+					],
+					"responsibilities": [
+						"Lead multi-day treks ensuring guest safety and comfort",
+						"Educate guests on local culture, ecology, and sustainability",
+						"Implement low-impact protocols on all trips",
+						"Conduct daily health checks and altitude assessments",
+						"Foster meaningful connections between guests and communities"
+					],
+					"benefits": [
+						"Competitive salary (40-60% above industry standard)",
+						"Professional development and training opportunities",
+						"Health insurance and accident coverage",
+						"Paid rest periods between expeditions",
+						"Equipment allowance and gear upgrades"
+					]
+				},
+				{
+					"id": "2",
+					"title": "Sustainability Coordinator",
+					"department": "Impact",
+					"location": "Remote or base camp",
+					"type": "Full-time",
+					"description": "Drive our responsible travel initiatives. Measure impact, develop partnerships, and ensure all operations align with our sustainability commitments.",
+					"requirements": [
+						"Bachelor's degree in Environmental Science, Sustainability, or related field",
+						"3+ years in sustainability or social impact roles",
+						"Experience with impact measurement frameworks (SDGs, B Corp)",
+						"Strong project management skills",
+						"Passion for responsible travel"
+					],
+					"responsibilities": [
+						"Track and report on sustainability KPIs",
+						"Develop partnerships with local communities and NGOs",
+						"Design and implement low-impact systems",
+						"Conduct carbon footprint assessments",
+						"Create educational content for guests and staff"
+					],
+					"benefits": [
+						"Competitive salary with performance bonuses",
+						"Remote work flexibility",
+						"Professional development budget",
+						"Annual retreat with the team",
+						"Health and wellness benefits"
+					]
+				},
+				{
+					"id": "3",
+					"title": "Marketing & Content Creator",
+					"department": "Growth",
+					"location": "Remote",
+					"type": "Full-time",
+					"description": "Tell the story of responsible adventure travel. Create compelling content, manage social media, and grow our community of conscious travelers.",
+					"requirements": [
+						"2+ years in content marketing or digital storytelling",
+						"Excellent writing and visual storytelling skills",
+						"Experience with social media management",
+						"Photography/videography skills (preferred)",
+						"Passion for sustainable travel"
+					],
+					"responsibilities": [
+						"Create blog posts, social content, and email campaigns",
+						"Manage social media channels (Instagram, Facebook, LinkedIn)",
+						"Document trips through photography and video",
+						"Build relationships with travel influencers and media",
+						"Analyze content performance and optimize strategy"
+					],
+					"benefits": [
+						"Competitive salary",
+						"Remote work flexibility",
+						"Annual team trip (fully covered)",
+						"Creative freedom and autonomy",
+						"Professional development opportunities"
+					]
+				}
+			],
+			"generalApplication": {
+				"title": "Don't See the Right Role?",
+				"description": "We're always looking for talented, passionate people. Send us your resume and tell us how you'd like to contribute to responsible travel.",
+				"cta": "Send General Application"
+			}
+		},
+		"partnerships": {
+			"badge": { "icon": "Handshake", "text": "Partner With Us" },
+			"title": "Partnership Opportunities",
+			"subtitle": "Collaborate with us to scale responsible travel and create shared value for communities and planet",
+			"labels": {
+				"description": "Partnership Description",
+				"lookingFor": "We're Looking For",
+				"benefits": "Partnership Benefits",
+				"cta": "Inquire About Partnership"
+			},
+			"opportunities": [
+				{
+					"id": "1",
+					"icon": "Users",
+					"title": "Community Cooperatives",
+					"category": "Local Partnerships",
+					"description": "Partner with us to create authentic, community-led experiences that generate fair income for local families.",
+					"lookingFor": [
+						"Women's cooperatives (crafts, textiles, food)",
+						"Village homestay networks",
+						"Traditional artisan groups",
+						"Organic farming cooperatives",
+						"Cultural preservation initiatives"
+					],
+					"benefits": [
+						"Fair and transparent revenue sharing",
+						"Marketing support and guest bookings",
+						"Training in sustainable tourism practices",
+						"Access to international travelers",
+						"Long-term partnership commitment"
+					]
+				},
+				{
+					"id": "2",
+					"icon": "Globe",
+					"title": "NGOs & Conservation Organizations",
+					"category": "Impact Partnerships",
+					"description": "Collaborate on reforestation, waste management, and community development projects integrated into our trips.",
+					"lookingFor": [
+						"Environmental conservation organizations",
+						"Community development NGOs",
+						"Wildlife protection groups",
+						"Waste management initiatives",
+						"Education and skills training programs"
+					],
+					"benefits": [
+						"Volunteer participation from our guests",
+						"Funding support for projects",
+						"Visibility to international audience",
+						"Co-created impact programs",
+						"Shared sustainability expertise"
+					]
+				},
+				{
+					"id": "3",
+					"icon": "Building2",
+					"title": "Eco-Lodges & Accommodations",
+					"category": "Accommodation Partners",
+					"description": "Join our network of sustainable accommodations committed to low-impact, renewable energy, and community benefit.",
+					"lookingFor": [
+						"Solar-powered lodges",
+						"low-impact certified accommodations",
+						"Community-owned guesthouses",
+						"Eco-resorts with responsible practices",
+						"Family-run teahouses"
+					],
+					"benefits": [
+						"Guaranteed bookings from our trips",
+						"Marketing and promotion",
+						"Sustainability certification support",
+						"Training in responsible hospitality",
+						"Access to conscious travelers"
+					]
+				},
+				{
+					"id": "4",
+					"icon": "Handshake",
+					"title": "Travel Agencies & Booking Platforms",
+					"category": "Distribution Partners",
+					"description": "Represent Trekkers Squad's responsible trips through your channels. Earn commissions while promoting sustainable tourism.",
+					"lookingFor": [
+						"Sustainable travel agencies",
+						"Adventure booking platforms",
+						"Corporate retreat organizers",
+						"University study abroad programs",
+						"Wellness retreat planners"
+					],
+					"benefits": [
+						"Competitive commission structure (15-20%)",
+						"Marketing materials and support",
+						"Training on responsible travel",
+						"Priority trip access for your clients",
+						"Co-marketing opportunities"
+					]
+				}
+			]
+		}
+	},
+	"cta": {
+		"backgroundImage": {
+			"src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
+			"alt": "Start a conversation"
+		},
+		"overlayClassName": "bg-gradient-to-br from-[var(--color-forest-600)]/80 to-[var(--color-navy-600)]/80",
+		"title": "Ready to Make an Impact?",
+		"description": "Whether you're looking to join our team or partner with us, let's start a conversation about how we can work together to transform adventure travel.",
+		"actions": [
+			{ "icon": "Briefcase", "label": "careers@trekkerssquad.example", "href": "mailto:careers@trekkerssquad.example" },
+			{ "icon": "Handshake", "label": "partnerships@trekkerssquad.example", "href": "mailto:partnerships@trekkerssquad.example" }
+		]
+	},
+	"mail": {
+		"careersEmail": "careers@trekkerssquad.example",
+		"partnershipsEmail": "partnerships@trekkerssquad.example",
+		"jobApplicationSubjectPrefix": "Application: ",
+		"generalApplicationHref": "mailto:careers@trekkerssquad.example?subject=General Application",
+		"partnershipSubjectPrefix": "Partnership Inquiry: "
+	}
+}

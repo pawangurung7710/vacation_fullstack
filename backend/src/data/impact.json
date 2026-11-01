@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Trees Planted",
+    "value": "12,500+",
+    "description": "Khumbu Valley reforestation",
+    "icon": "tree",
+    "category": "environment",
+    "order": 1
+  },
+  {
+    "title": "Women Trained",
+    "value": "220+",
+    "description": "As professional guides",
+    "icon": "users",
+    "category": "social",
+    "order": 2
+  },
+  {
+    "title": "Plastic Removed",
+    "value": "3.2 tons",
+    "description": "From trekking routes",
+    "icon": "recycle",
+    "category": "environment",
+    "order": 3
+  },
+  {
+    "title": "Village Co-ops",
+    "value": "18",
+    "description": "Fair trade partnerships",
+    "icon": "handshake",
+    "category": "social",
+    "order": 4
+  }
+]
+

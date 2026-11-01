@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Aarav Thapa",
+    "role": "Founder & Lead Guide",
+    "location": "Kathmandu",
+    "experience": "14 years guiding",
+    "certifications": [
+      "Mountain Guide Certified",
+      "Wilderness First Responder",
+      "Leave No Trace Trainer"
+    ],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=800&h=1000",
+    "bio": "Aarav started the squad after years of guiding friends through the high passes. He still leads a few departures every season.",
+    "email": "aarav@trekkerssquad.example",
+    "order": 1
+  },
+  {
+    "name": "Mira Lopez",
+    "role": "Trip Designer",
+    "location": "Kathmandu",
+    "experience": "9 years",
+    "certifications": [
+      "Tourism Management MA",
+      "Wilderness First Aid"
+    ],
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=800&h=1000",
+    "bio": "Mira shapes every itinerary, balancing hard days with rest days, good food and time to look around.",
+    "email": "mira@trekkerssquad.example",
+    "order": 2
+  },
+  {
+    "name": "Daniel Okoye",
+    "role": "Operations Manager",
+    "location": "Pokhara",
+    "experience": "11 years",
+    "certifications": [
+      "Logistics & Safety Lead",
+      "Advanced First Aid"
+    ],
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=800&h=1000",
+    "bio": "Daniel keeps permits, transport, lodges and backup plans lined up so the trail days run smoothly.",
+    "email": "daniel@trekkerssquad.example",
+    "order": 3
+  },
+  {
+    "name": "Sana Rai",
+    "role": "Guest Experience Lead",
+    "location": "Kathmandu",
+    "experience": "7 years",
+    "certifications": [
+      "Hospitality Management",
+      "Mountain First Responder"
+    ],
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=800&h=1000",
+    "bio": "Sana is the friendly voice before and after your trip, from packing lists to post-trek photo swaps.",
+    "email": "sana@trekkerssquad.example",
+    "order": 4
+  }
+]

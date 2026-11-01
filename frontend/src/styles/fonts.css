@@ -1,0 +1,14 @@
+/**
+ * TREKKERS SQUAD DESIGN SYSTEM - TYPOGRAPHY
+ *
+ * Font <link>s live in index.html, NOT here:
+ *   - `@import url(...)` inside a bundled CSS file is fully render-blocking AND serialized
+ *     (browser must fetch index.css → parse → discover fonts.css → fetch → parse →
+ *     discover the Google CSS → fetch → then the woff2 files). That's 3-4 chained
+ *     round-trips before first paint.
+ *   - index.html loads Outfit + DM Sans via a non-blocking (media="print" -> all)
+ *     <link> so they never delay first paint; theme.css carries -apple-system
+ *     fallbacks and the faces use `display=swap`.
+ *   - The ~13 blog-editor typography-picker families are injected on demand by the
+ *     routes that actually render them (src/app/utils/editor-fonts.ts).
+ */

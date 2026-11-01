@@ -1,0 +1,183 @@
+{
+  "styles": {
+    "primaryColor": "#15803d",
+    "primaryColorHover": "#166534",
+    "sectionHeadingColor": "#15803d",
+    "subtitleColor": "#64748b",
+    "accentColor": "#22c55e",
+    "buttonBorderRadius": "0.5rem",
+    "heroOverlay": "rgba(0,0,0,0.25)"
+  },
+  "hero": {
+    "slides": [
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=2400&q=85",
+          "alt": "Sunrise light above a sea of clouds and snow peaks"
+        },
+        "heading": "Chase the sunrise above the clouds"
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=2400&q=85",
+          "alt": "A trekker standing beside a summit cairn"
+        },
+        "heading": "Walk where the trail ends and the views begin"
+      },
+      {
+        "image": {
+          "src": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=2400&q=85",
+          "alt": "Two hikers on a mountain trail under snow peaks"
+        },
+        "heading": "Small groups. Local guides. Big mountains."
+      }
+    ],
+    "primaryCta": {
+      "label": "Book Now",
+      "href": "/all-trips"
+    },
+    "secondaryCta": {
+      "label": "About Us",
+      "href": "/about"
+    }
+  },
+  "featuredJourneys": {
+    "title": "Featured Journeys",
+    "subtitle": "Transformative adventures led by local guides:",
+    "viewAllLabel": "View All Trips"
+  },
+  "curateSection": {
+    "heading": "What makes us different",
+    "image1": {
+      "src": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=80",
+      "alt": "Mountain landscape with mist and valleys"
+    },
+    "description": "We’re proudly locally run, crafting adventures that helps you understand what the outdoors are all about. Our trips tread lightly on the planet, with well paid crew who share honest stories of history and culture shaped by the mountains. Experienced and first‑aid trained, they keep your journey safe while making it unforgettable. We support local communities with our sustainable responsible model of tourism which is very unique to the mountains.",
+    "features": [
+      {
+        "title": "We care about the planet",
+        "subtitle": "Tread lightly on the environment.",
+        "body": "We know that tourism is not always the most environmentally-friendly sector, and are on a mission to change that through our practices."
+      },
+      {
+        "title": "We care about truthful stories and authentic narratives",
+        "subtitle": "Learn about regional history and local culture.",
+        "body": "Our guides are affectionately known as \"mountain nerds\". You'll have opportunities to understand local history and culture and how it has been shaped by the mighty mountain landscape over millennia."
+      }
+    ]
+  },
+  "crowdedTrails": {
+    "ctaLabel": "Meet the squad",
+    "ctaHref": "/about"
+  },
+  "gallery": {
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1767723625191-5a70e62de7a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Ornate domed ceiling of a historic building"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1696242734478-48a1b0a917a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Bare feet in beach sand"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1608790672275-309c02d888ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Kids blowing out candles on a birthday cake"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1566662177416-c52fa20d4dfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Woman in a white dress beside a palm tree"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1676362536932-53df8ad0015a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Croissant and coffee at a cafe table"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1649773289945-93a96051fd18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Piping frosting onto a layer cake"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1678086029785-b2b1599c7d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Trekkers hiking toward snow-capped mountain peaks"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1776620544426-5298d9dfaf5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Colorful prayer flags around a stupa"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1696269061408-9e8572651ca3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Hot air balloons at sunrise"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1682965740861-fdd2065bdd2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Waterfall in a lush green forest"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1760721459088-1a70d26b8ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Sunset over desert sand dunes"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1702913819943-b45c83ce2a10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Tent under a starry night sky"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1775433205046-86e060feff06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Vendor selling colorful spices at a market"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Wooden boats on a turquoise mountain lake"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1780840883415-6babdeaf9d70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Sunlit path through a forest"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1733508244270-1155719f22d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Golden sunset over ocean waves"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1679546397515-b914d6601234?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Elephants walking across a grassy field"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1659720361316-a8756b65c9dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Road trip through mountain scenery"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1756694916025-9a8d27f4b8b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Performers in traditional festival costumes"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1742689502089-ab1023df04f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+        "alt": "Street food vendor cooking at a market stall"
+      }
+    ]
+  },
+  "blogSection": {
+    "title": "Stories from the Trail",
+    "subtitle": "Guides, gear and field notes from the trail",
+    "buttonLabel": "Read All Stories"
+  },
+  "travelerStories": {
+    "title": "Traveler Stories",
+    "subtitle": "Hear from travellers who have joined a squad trip",
+    "buttonLabel": "See more in detail"
+  },
+  "cta": {
+    "backgroundImage": {
+      "src": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
+      "alt": "Start Your Journey"
+    },
+    "title": "Ready to Transform How You Travel?",
+    "description": "Join us on a journey that restores mountains, empowers communities, and changes the way you see the world.",
+    "primaryButton": {
+      "label": "Explore All Trips",
+      "href": "/all-trips"
+    },
+    "secondaryButton": {
+      "label": "Get in Touch",
+      "href": "/contact"
+    }
+  }
+}

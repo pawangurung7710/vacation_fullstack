@@ -1,0 +1,17 @@
+# The Trekkers Squad - allow crawlers on public site, disallow CMS and private flows
+User-agent: *
+Allow: /
+
+# CMS and auth (no indexing)
+Disallow: /cms
+Disallow: /reset-password
+
+# Private booking flows (trip detail pages stay indexable; Google supports * wildcard)
+Disallow: /*/checkout
+Disallow: /*/confirmation
+Disallow: /*/details
+Disallow: /*/select-date
+Disallow: /*/booking/
+
+# Sitemap (must be an absolute URL per the robots.txt spec)
+Sitemap: https://www.trekkerssquad.example/sitemap.xml

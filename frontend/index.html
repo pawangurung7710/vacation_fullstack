@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#15803d" />
+
+    <!-- Warm up connections to the API and image hosts before the JS asks for them.
+         Keep this list to <=4 preconnects (Lighthouse warns past that); unsplash is
+         never on the critical path so it only gets a cheap dns-prefetch. -->
+    <link rel="preconnect" href="https://api.trekkerssquad.example" crossorigin />
+    <link rel="dns-prefetch" href="https://api.trekkerssquad.example" />
+    <link rel="preconnect" href="https://res.cloudinary.com" crossorigin />
+    <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+    <link rel="dns-prefetch" href="https://images.unsplash.com" />
+
+    <!-- Fonts: Outfit + DM Sans are the site-wide heading/body faces. Load the
+         stylesheet without blocking first paint (print media -> swap to all onload);
+         theme.css declares -apple-system fallbacks so text is visible immediately and
+         `display=swap` handles the swap-in. The ~13 editor typography families are
+         injected on demand by the blog/about/CMS routes (see utils/editor-fonts.ts). -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap"
+      />
+    </noscript>
+    <meta name="description" content="Transformative Himalayan adventures with purpose. Sustainable tourism, local guides, zero-waste treks, and regenerative travel in Nepal and beyond." />
+    <meta name="keywords" content="Himalayan travel, Nepal trekking, sustainable tourism, zero waste travel, regenerative tourism, local guides, The Trekkers Squad" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="canonical" href="/" id="canonical-link" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="The Trekkers Squad" />
+    <meta property="og:title" content="The Trekkers Squad | Transforming Himalayan Tourism" />
+    <meta property="og:description" content="Transformative Himalayan adventures with purpose. Sustainable tourism, local guides, zero-waste treks, and regenerative travel in Nepal and beyond." />
+    <meta property="og:locale" content="en_US" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Trekkers Squad | Transforming Himalayan Tourism" />
+    <meta name="twitter:description" content="Transformative Himalayan adventures with purpose. Sustainable tourism, local guides, zero-waste treks, and regenerative travel in Nepal and beyond." />
+    <title>The Trekkers Squad | Transforming Himalayan Tourism</title>
+
+    <!-- Fire the critical API reads before the ~130KB app bundle downloads & parses.
+         Results are picked up by src/app/services/api.ts (and prime the HTTP cache
+         regardless). Fails silent if VITE_API_URL wasn't injected at build time. -->
+    <script>
+      (function () {
+        try {
+          var base = "%VITE_API_URL%";
+          if (!base || base.charAt(0) === "%") return;
+          var store = (window.__TREKKERS_PRELOAD__ = {});
+          var warm = function (path) {
+            store[path] = fetch(base + path, { headers: { Accept: "application/json" } })
+              .then(function (r) { return r.ok ? r.json() : null; })
+              .catch(function () { return null; });
+          };
+          warm("/categories");
+          warm("/regions");
+          if (location.pathname === "/") warm("/pages/homepage");
+        } catch (e) {}
+      })();
+    </script>
+    <!-- JSON-LD Organization (default; can be overridden per page) -->
+    <script type="application/ld+json" id="ld-organization">
+      {"@context":"https://schema.org","@type":"Organization","name":"The Trekkers Squad","url":"https://trekkerssquad.example","description":"Transformative Himalayan adventures with purpose. Sustainable tourism, local guides, zero-waste treks, and regenerative travel in Nepal and beyond.","sameAs":[]}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
