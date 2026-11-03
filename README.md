@@ -206,7 +206,18 @@ frontend/
     services/api.ts   # API client
 ```
 
-## 11. Deploying
+## 11. Documentation & Standards
+
+- **For Business Owners & Clients**: [Product Overview & Value Guide](./docs/CLIENT_OVERVIEW.md)
+- **For Backend Developers**: [Backend Architecture & API Docs](./backend/docs/README.md)
+- **For Frontend Developers**: [Frontend Architecture & UI Docs](./frontend/docs/README.md)
+- **Coding Standards Hub**: [CODING_STANDARDS.md](./CODING_STANDARDS.md) | [.cursorrules](./.cursorrules)
+
+## 12. Coding Standards & Vibe Coding
+
+For guidelines on architecture, validation, performance, and AI-assisted development, see [CODING_STANDARDS.md](./CODING_STANDARDS.md) and [.cursorrules](./.cursorrules).
+
+## 12. Deploying
 
 - **Frontend**: `npm run build`, then serve `frontend/dist` from any static host. Set `VITE_API_URL` at build time. `frontend/vercel.json` already has cache and security headers.
 - **Backend**: run `npm start` behind a reverse proxy with HTTPS. Set production values for every variable in `backend/env.example`, in particular `JWT_SECRET`, `JWT_REFRESH_SECRET`, `BOOKING_QR_SECRET`, `ADMIN_PASSWORD` and a managed `MONGO_URI`.

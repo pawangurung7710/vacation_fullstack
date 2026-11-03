@@ -1,0 +1,41 @@
+# The Trekkers Squad - AI & Vibe-Coding Rules
+# Detailed guides:
+# - Backend:  backend/CODING_STANDARDS.md
+# - Frontend: frontend/CODING_STANDARDS.md
+
+## Tech Stack
+- Backend: Node.js (ES Modules), Express, MongoDB (Mongoose), Zod validation, JWT.
+- Frontend: React 18, Vite, TypeScript, Tailwind CSS 4, Radix UI primitives, React Hook Form + Zod.
+
+## Backend Rules (see backend/CODING_STANDARDS.md)
+1. Layer flow must be strictly respected:
+   `routes -> validators -> controllers -> services -> models`
+   - Controllers only handle HTTP (req, res, next) and call services.
+   - All DB queries and business logic belong in `services/`.
+   - Never put Mongoose calls in controllers or routes.
+2. Standard response helpers:
+   - Always use `sendSuccess(res, message, data, meta)` or `sendError(res, statusCode, message)` from `src/utils/response.js`.
+3. Input validation:
+   - Every route with input must use `validate(schema)` from `src/middlewares/validate.middleware.js` with a Zod schema from `src/validators/`.
+4. Database & Queries:
+   - Always paginate list endpoints (`page`, `limit`).
+   - Use `.lean()` for read-only queries.
+   - For listing endpoints, exclude large fields (`itinerary`, `faqs`, `tripNotes`, etc.) using `.select(...)`.
+   - Never declare duplicate Mongoose indexes (avoid `index: true` if `schema.index()` is used).
+
+## Frontend Rules (see frontend/CODING_STANDARDS.md)
+1. TypeScript:
+   - Strict typing is required. Never use `any`. Use `unknown` or define an interface.
+   - Forms must use `react-hook-form` with `@hookform/resolvers/zod`.
+2. Routing & Performance:
+   - All routes in `App.tsx` must be loaded dynamically via `React.lazy()` and wrapped in `<Suspense>`.
+   - Keep components under 250 lines; extract sub-components and custom hooks into `hooks/`.
+3. Media:
+   - Process images through `resolveMediaUrl(url, transform)` and `mediaSrcSet(url, widths)` from `src/app/services/api.ts`.
+4. Styling:
+   - Use Tailwind CSS 4 and theme tokens (`forest-*`, `navy-*`, `sun-*`).
+   - Always merge dynamic classes using the `cn(...)` utility.
+   - Use Radix UI primitives for dialogs, dropdowns, accordions, and popovers.
+5. API Calls:
+   - Centralize all API calls in `src/app/services/api.ts`. Never use raw `fetch()` or `axios` in UI components.
+   - Always handle all 4 UI states: Loading (skeleton), Empty (<EmptyState />), Error (toast/alert), and Success.
